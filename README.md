@@ -1,15 +1,8 @@
 # Rock Paper Scissors Game
 
-## Table of contents
-
-- [Links](#links)
-- [Built with](#built-with)
-- [Author](#author)
-
-
 ### Links
 
-- Live Site URL: [https://joffenhopland.github.io/four-card-feature-sec](https://joffenhopland.github.io/four-card-feature-sec)
+- Live Site URL: [https://joffenhopland.github.io/rock-paper-scissors/](https://joffenhopland.github.io/rock-paper-scissors/)
 
 ### Built with
 
