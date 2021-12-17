@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif
+}
+
+body {
+    background-color: rgb(43, 46, 72);
+}
+
+header {
+    background: rgb(247, 247, 247);
+    padding: 20px;
+}
+
+header > h1 {
+    color: rgb(43, 46, 72);
+    text-align: center;
+}
+
+.score-board {
+    margin: 35px auto;
+    border: 3px solid rgb(247, 247, 247);
+    width: 200px;
+    color: rgb(247, 247, 247);
+    font-size: 46px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: rgb(170, 58, 58);
+    color: rgb(247, 247, 247);
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -28px;
+}
+
+.result {
+    font-size: 40px;
+    color: rgb(247, 247, 247);
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choice {
+    border: 4px solid rgb(247, 247, 247);
+    border-radius: 50%;
+    margin: 0 25px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(72, 78, 121);
+    transform: scale(1.1);
+}
+
+#action-message {
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.green-glow {
+    border: 4px solid rgb(66, 184, 70);
+    box-shadow: 0 0 15px rgb(19, 82, 22);
+}
+
+.red-glow {
+    border: 4px solid rgb(182, 43, 43);
+    box-shadow: 0 0 15px rgb(82, 35, 35);
+}
+
+.grey-glow {
+    border: 4px solid rgb(159, 159, 159);
+    box-shadow: 0 0 15px rgb(97, 97, 97);
+}
